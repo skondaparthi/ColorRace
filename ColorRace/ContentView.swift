@@ -24,7 +24,7 @@ struct ContentView: View {
     @State var dragBlockPosition: CGSize = .zero
     
 
-    
+    // func reset()
     
     
     var body: some View {
