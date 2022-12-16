@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7512EB5A2940DC9700C0E95B /* EndPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7512EB592940DC9700C0E95B /* EndPopUp.swift */; };
 		7B06AAF628733E79002E3F5B /* ColorWallObstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06AAF528733E79002E3F5B /* ColorWallObstacle.swift */; };
 		7B06AAF8287382AC002E3F5B /* DragBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06AAF7287382AC002E3F5B /* DragBlock.swift */; };
 		7BA69C942870D4710088BC7A /* ColorRaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA69C932870D4710088BC7A /* ColorRaceApp.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7512EB592940DC9700C0E95B /* EndPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPopUp.swift; sourceTree = "<group>"; };
 		7B06AAF528733E79002E3F5B /* ColorWallObstacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWallObstacle.swift; sourceTree = "<group>"; };
 		7B06AAF7287382AC002E3F5B /* DragBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragBlock.swift; sourceTree = "<group>"; };
 		7BA69C902870D4710088BC7A /* ColorRace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorRace.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +63,7 @@
 				7BA69C952870D4710088BC7A /* ContentView.swift */,
 				7B06AAF7287382AC002E3F5B /* DragBlock.swift */,
 				7B06AAF528733E79002E3F5B /* ColorWallObstacle.swift */,
+				7512EB592940DC9700C0E95B /* EndPopUp.swift */,
 				7BA69CA3287112DD0088BC7A /* ColorWall.scn */,
 				7BA69C972870D4710088BC7A /* Assets.xcassets */,
 				7BA69C992870D4720088BC7A /* Preview Content */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BA69C962870D4710088BC7A /* ContentView.swift in Sources */,
+				7512EB5A2940DC9700C0E95B /* EndPopUp.swift in Sources */,
 				7B06AAF628733E79002E3F5B /* ColorWallObstacle.swift in Sources */,
 				7BA69C942870D4710088BC7A /* ColorRaceApp.swift in Sources */,
 				7B06AAF8287382AC002E3F5B /* DragBlock.swift in Sources */,

@@ -36,9 +36,9 @@ struct ContentView: View {
                 Image("game background")
                     .resizable()
                     .scaledToFill()
-                    .frame(width: geo.size.width, height: geo.size.height)
+                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
                     .edgesIgnoringSafeArea(.all)
-                    .position(x: 0, y: UIScreen.main.bounds.height / 2 + 25)
+                    .position(x: 0, y: UIScreen.main.bounds.height / 2 + 60)
                 
                
                 
@@ -64,7 +64,7 @@ struct ContentView: View {
                 
                 // Color to play Rectangle
                     HStack(){
-                        GoalRectangle(imagePosition: $imagePosition)
+                        GoalRectangle(imagePosition: $imagePosition, score: $score)
 
                         
                         Text("\(score)")
@@ -102,12 +102,14 @@ struct GoalRectangle: View {
     @Binding var imagePosition: CGPoint
     @State var number = 0
     @State var toggleColor = false
+    @Binding var score: Int
     
     var body: some View {
         
 
         if imagePosition.x == 100 {
             colorRectangle
+            //score += 1
             
         } else {
             RoundedRectangle(cornerRadius: 20)
